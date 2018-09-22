@@ -6,5 +6,5 @@ git add *.vcxproj
 git add *.user
 git add *.bat
 git commit -am system-config-date
-git push iamiki master
+git push origin master
 pause
