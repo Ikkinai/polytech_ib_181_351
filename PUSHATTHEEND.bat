@@ -5,8 +5,6 @@ git add *.sln
 git add *.vcxproj 
 git add *.user
 git add *.bat
-git commit -am "&
-&system-config-date&
-&"
+git commit -sm "%DATE% %TIME%" 
 git push origin master
 pause
